@@ -9,7 +9,7 @@ If you say yes, it asks for:
   all their emails one by one.
 After every email is entered, it verifies for:
   the regex,
-  the existance of the email (using Real Email API), (This could even verify the regex, but I thought regex is easily done offline)
+  the existance of the email (using Real Email API), (This could even verify the regex, but I thought regex is easily checked offline)
   the absence of the email in the mailing list. (As a user shouldn't be sent multiple emails)
 Every email is added in the the mailig list after it passes the above tests.
 If not, it perceives a human error and asks for the email again.
