@@ -17,8 +17,8 @@ def settriggers():
         target=input("Enter your target price: ")
         send=urllib.request.urlopen('https://api.thingspeak.com/update?api_key=YE4BDPOOVTOCAPMS&field1='+target)
         emails=[]
-        nemails=int(input("Enter the number of emails: "))
-        print("Enter the emails one by one:")
+        nemails=int(input("Enter the number of users: "))
+        print("Enter their emails one by one:")
         n=0
         while(n!=nemails):
             email=str(input(str(n+1)+'. '))
@@ -38,7 +38,7 @@ def settriggers():
                         n+1
                     else:
                         print("Email not yet exists. Please check again.")
-        print("All emails entered. Checking Bitcoin price...")
+        print("All emails valid. Checking Bitcoin price now...")
         while True:
             t=requests.get("https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd")
             t=t.json()
