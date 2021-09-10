@@ -1,5 +1,5 @@
 The program doesn't need any installation. A simple python IDE suffices.
-Please copy-paste the code in a python IDE, online or offline and run it.
+Please copy-paste the code into a python IDE, online or offline and run it.
 An online compiler works better, as the program needs to connect to the internet for almost every operation.
 It first outputs the current price of Bitcoin and asks if you'd like to set an alert.
 If you say no, skip to point 17.
