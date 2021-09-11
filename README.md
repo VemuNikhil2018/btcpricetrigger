@@ -20,4 +20,4 @@ If anytime the price matches with the initial value, the program starts sending 
 Contd. from point 5 - If you said no, it asks if you want to view the history of all the requests.
 It outputs all the data stored in the ThingSpeak database in the perfect format of value, date, and time, with a new line for every value.
 If the first input is invalid, it asks for the input again.
-You can't stop the program to add extra mails. In that case, you could execute the same program again for new emails.
+You can't stop the program to add extra mails. In that case, you could execute the same program in a fresh IDE for new emails.
